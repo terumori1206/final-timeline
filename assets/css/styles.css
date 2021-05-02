@@ -1,94 +1,149 @@
+.dropdown-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    color: #C4820E;
+    margin: 0;
+
+}
+
 body {
+    font-family: 'Open Sans', sans-serif;
     color: black;
     margin: 0;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.light-font {
+    font-weight: 300;
+}
+
+.italic-font {
+    font-style: italic;
+}
+
+.bold-font {
+    font-weight: 700;
+}
+
 h1 {
+    margin-top: 30px;
+    color: #C4820E;
+    font-size: 28px;
+}
+
+h2 {
     color: black;
     font-size: 21px;
+    margin-top: 20px;
 }
 
-p {
-    width: 30%;
-
+figcaption {
+    font-size: 12px;
 }
 
-.headerbox {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.headerbox1 {
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    background: #FDB515;
+}
+
+.headerbox2 {
     width: 100%;
     height: 100px;
-    margin: 25px 0;
-    background: #FDB515;
-    text-align: center;
+    margin: auto;
+    background: #003262;
 }
 
 .header-logo {
-    text-align: center;
     width: 5%;
+    display: block;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
 
-.headerbox-2 {
-    width: 100%;
-    height: 50px;
-    margin:
-    background #003262;
+ /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    float: right;
+    margin-right: 100px;
+  }
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DDD5C7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #C4820E;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
 }
-
-.movie {
-    width: 30%;
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+      display: block;
 }
-
-.image-1 {
-    position: relative;
-    width: 30%;
-    margin: 50px;
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+      background-color: #FDB515;
 }
-
-.image-2 {
-    width: 30%;
-    float: centor;
-}
-
-.image-3 {
-    width: 30%;
-}
-
-.image-4 {
-    width: 30%;
-}
-
-.image-5 {
-    width: 30%;
-}
-
-.image-6 {
-    width: 30%;
-}
-
-
 
 .footerbox {
     width: 100%;
-    height: 50px;
+    height: 100px;
     margin: 25px;
     padding: 25px;
     background: #003262
 }
 
 .copyright {
+    text-align: center;
     color: white;
+    vertical-align: middle
 }
 
 .logo {
     width: 50%;
     height: 50%;
 }
+  
+.movie {
+    margin-top: 20px;
+}
 
-.navigation-box {
-    width: 100px;
-    height: 500px;
-    font-size: 16px;
-    Padding: 30px;
-    margin: 20px;
-    color: #C4820E
-    text-align: center;
-    background-color: #DDD5C7
+.p2021 {
+    margin-top:20px;
 }

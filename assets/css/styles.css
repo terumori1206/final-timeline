@@ -28,7 +28,7 @@ header {
 
 .header-logo {
   position: absolute;
-  left:0;
+  left: 0;
   right: 0;
   max-width: 100px;
   margin: auto;
@@ -140,18 +140,31 @@ footer {
     min-height: 150px;
     background: #003262;
   }
-  
+
+.social-icons {
+    position: relative;
+    left: 50%;
+    right: 50%;
+}
+
+.menu {
+    display: flex;
+}
+
 .copyright {
+    display: flex;
     text-align: center;
     margin: auto;
     color: white;
 }
 
-.logo {
-    width: 50%;
-    height: 50%;
+.instagram {
+    width: 100%;
+    max-width: 70px; 
+    margin: auto;
+    padding: 0 15px;
 }
-  
+
 .movie {
     margin-top: 20px;
 }

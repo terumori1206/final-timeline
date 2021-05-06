@@ -59,10 +59,10 @@ ul {
 }
 
 .bar {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
 
 .dropdown-content {
@@ -74,15 +74,15 @@ ul {
 }
 
 .light-font {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .italic-font {
-    font-style: italic;
+  font-style: italic;
 }
 
 .bold-font {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 h2 {
@@ -136,15 +136,16 @@ figcaption {
 
 footer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     min-height: 150px;
     background: #003262;
-  }
+}
 
 .social-icons {
-    position: relative;
-    left: 50%;
-    right: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .menu {
@@ -152,15 +153,12 @@ footer {
 }
 
 .copyright {
-    display: flex;
-    text-align: center;
-    margin: auto;
     color: white;
 }
 
-.instagram {
+.icons {
     width: 100%;
-    max-width: 70px; 
+    max-width: 60px; 
     margin: auto;
     padding: 0 15px;
 }
